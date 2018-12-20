@@ -23,6 +23,8 @@ const warnOnce = msg => {
   }
 }
 
+// tada #1
+
 const onCompilationError = (err, vm) => {
   const trace = vm ? generateComponentTrace(vm) : ''
   throw new Error(`\n\u001b[31m${err}${trace}\u001b[39m\n`)
