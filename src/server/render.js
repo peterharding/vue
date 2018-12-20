@@ -71,6 +71,8 @@ function renderNode (node, isRoot, context) {
   }
 }
 
+// tada #2
+
 function registerComponentForCache (options, write) {
   // exposed by vue-loader, need to call this if cache hit because
   // component lifecycle hooks will not be called.
